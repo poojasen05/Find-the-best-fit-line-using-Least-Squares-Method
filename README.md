@@ -50,7 +50,6 @@ plt.show()
 
 ## Output:
 
-![Screenshot 2024-02-19 214704](https://github.com/Shubhavi17/Find-the-best-fit-line-using-Least-Squares-Method/assets/150005085/ce8b65ae-c192-42b0-a820-9a21844d25ef)
 
 
 
@@ -59,6 +58,7 @@ plt.show()
 
 
 
+![Screenshot 2024-02-19 214704](https://github.com/Shubhavi17/Find-the-best-fit-line-using-Least-Squares-Method/assets/150005085/722475c4-93fc-4be6-92de-64afc6c42e64)
 
 
 

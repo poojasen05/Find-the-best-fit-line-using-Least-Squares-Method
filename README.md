@@ -53,7 +53,7 @@ plt.show()
 ```
 
 ## Output:
-"C:\Users\admin\Pictures\Screenshots\Screenshot 2024-02-20 033517.png"
+https://github.com/poojasen05/Find-the-best-fit-line-using-Least-Squares-Method/edit/main/README.md
 
 
 ## Result:

@@ -52,14 +52,7 @@ plt.show()
 
 
 
-
-
-![Screenshot 2024-02-19 221552](https://github.com/Shubhavi17/Find-the-best-fit-line-using-Least-Squares-Method/assets/150005085/41ad53a4-f47c-4aa9-8d99-1abe5d8d7904)
-
-
-
-
-
+![Screenshot 2024-02-20 162517](https://github.com/Shubhavi17/Find-the-best-fit-line-using-Least-Squares-Method/assets/150005085/df005bf2-3622-4b8a-859c-0e375799e9eb)
 
 
 

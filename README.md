@@ -26,7 +26,9 @@ RegisterNumber:
 ```
 
 ## Output:
-![best fit line](sam.png)
+![Screenshot 2024-02-20 033517](https://github.com/AkilaMohan/Find-the-best-fit-line-using-Least-Squares-Method/assets/150784373/b55d82e1-87c4-4fb6-8fc5-3ba0a97f90ae)
+
+
 
 
 ## Result:

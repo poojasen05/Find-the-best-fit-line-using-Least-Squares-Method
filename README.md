@@ -5,7 +5,7 @@ To implement univariate Linear Regression to fit a straight line using least squ
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
+ 
 ## Algorithm
 1. Get the independent variable X and dependent variable Y.
 2. Calculate the mean of the X -values and the mean of the Y -values.
@@ -24,32 +24,35 @@ Developed by: Shubhavi.M
 RegisterNumber:  212223040199
 */
 ```
-```
+```python
+
 import numpy as np
 import matplotlib.pyplot as plt
-x=np.array(eval(input()))
-y=np.array(eval(input()))
-x_mean=np.mean(x)
-y_mean=np.mean(y)
+X=np.array(eval(input()))
+Y=np.array(eval(input()))
+X_mean=np.mean(X)
+print(X_mean)
+Y_mean=np.mean(Y)
+print(Y_mean)
 num=0
-den=0
-for i in range(len(x)):
-    num+=(x[i]-x_mean)*(y[i]-y_mean)
-    den+=(x[i]-x_mean)**2
-m=num/den
-b=y_mean-m*x_mean
-print(m,b)
-y_predicted=m*x+b
-print(y_predicted)
-plt.scatter(x,y)
-plt.plot(x,y_predicted,color='red')
+denum=0
+for i in range(len(X)):
+  num+=(X[i]-X_mean)*(Y[i]-Y_mean)
+  denum+=(X[i]-X_mean)**2
+m=num/denum
+print(m)
+b=Y_mean - m*X_mean
+print(b)
+Y_pred=m*X+b
+print(Y_pred)
+plt.scatter(X,Y,color='blue')
+plt.plot(X,Y_pred,color='yellow') 
 plt.show()
-```
-```
 
+```
 
 ## Output:
-![image](https://github.com/Shubhavi17/Find-the-best-fit-line-using-Least-Squares-Method/assets/150005085/27fc90b4-f665-4328-81c9-ce7ae1c92348)
+![image](https://github.com/Yazhinielangovan/Find-the-best-fit-line-using-Least-Squares-Method/assets/155508323/241b17e9-d149-4650-ab2b-04de46f5f129)
 
 
 ## Result:
